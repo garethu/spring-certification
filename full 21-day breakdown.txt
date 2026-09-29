@@ -1,0 +1,31 @@
+Got it — here's the full 21-day breakdown (2 hrs/day: ~1 hr theory, ~1 hr hands-on in one running practice app):
+
+Week 1 — Container, AOP, Testing
+
+Day 1: Container basics — ApplicationContext, bean lifecycle, @PostConstruct/@PreDestroy, scopes (esp. prototype-in-singleton trap)
+Day 2: Dependency injection — constructor vs setter vs field injection, @Autowired, @Qualifier, @Primary, circular dependency handling
+Day 3: @Configuration/@Bean, component scanning, stereotypes (@Service, @Repository), @Value and property injection
+Day 4: AOP concepts — proxies (JDK dynamic vs CGLIB), advice types (@Before, @After, @Around, etc.)
+Day 5: AOP pointcut expressions — write 4-5 different pointcuts, apply a logging aspect to your app
+Day 6: Testing fundamentals — @SpringBootTest, @MockBean vs @Mock, test slices (@WebMvcTest, @DataJpaTest)
+Day 7: Consolidation — write tests for everything built this week; review any shaky concept
+
+Week 2 — Data & Boot
+
+Day 8: JDBC template basics, RowMapper, exception translation
+Day 9: @Transactional — propagation types (REQUIRED, REQUIRES_NEW, NESTED, etc.) — this is the usual weak spot, don't rush it
+Day 10: @Transactional — isolation levels, rollback rules, self-invocation pitfall (calling a @Transactional method from within the same class)
+Day 11: Spring Data JPA — repositories, query derivation, @Query, pagination/sorting
+Day 12: Spring Boot auto-configuration — how @EnableAutoConfiguration works, conditional beans (@ConditionalOnClass, etc.), starters
+Day 13: Externalized config — application.yml/properties, @ConfigurationProperties, profiles, actuator endpoints
+Day 14: Consolidation — convert your app fully to Boot with a persistence layer; deliberately trigger a self-invocation transaction bug and fix it
+
+Week 3 — MVC, Security, Exam Prep
+
+Day 15: @RestController, request mapping, @RequestBody/@PathVariable/@RequestParam
+Day 16: Validation (@Valid, custom validators), exception handling via @ControllerAdvice
+Day 17: Security basics — filter chain, UserDetailsService, method-level security (@PreAuthorize)
+Day 18: Spring Academy — fill gaps on whatever's felt weakest so far
+Day 19: Mock exam #1 — full review of every wrong answer, not just the score
+Day 20: Mock exam #2 — targeted re-drill on Day 19's weak areas
+Day 21: Mock exam #3 + final review pass on transaction propagation and bean scopes (the two highest-yield trouble spots)
