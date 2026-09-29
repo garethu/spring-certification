@@ -1,14 +1,19 @@
-# Spring Certification: Day 1 Lab
+# Spring Certification Study Labs
 
-A Java 21 / Spring Boot console app for studying the IoC container, bean lifecycle, post-processors, standard scopes, prototype lookup, and a small custom scope.
+Each study day is an independent Java 21 / Spring Boot Maven module. The root POM shares the Java and Spring Boot versions and lets Maven build all modules together.
 
-## Run
+## Modules
+
+- [Day 1: Spring Container and Bean Lifecycle](modules/day-01/DAY-1-STUDY-GUIDE.md)
+- [Day 2: Dependency Injection](modules/day-02/DAY-2-STUDY-GUIDE.md)
+
+## Run a Module
 
 ```powershell
-mvn test
-mvn spring-boot:run
+mvn -pl modules/day-01 test
+mvn -pl modules/day-01 spring-boot:run
 ```
 
-The demo prints lifecycle events and scope comparisons, then exits. The context closes at exit, so `@PreDestroy` output is visible. Run `mvn package` to produce a runnable jar under `target/`.
+To run Day 2 instead, use `modules/day-02` in those commands. Each module has its own entry point, dependencies, tests, and runnable application.
 
-Start with [DAY-1-STUDY-GUIDE.md](DAY-1-STUDY-GUIDE.md) for the two-hour lesson, exercises, and answers. For a beginner-friendly explanation of how every class fits together and what happens from startup through shutdown, read [APPLICATION-WALKTHROUGH.md](APPLICATION-WALKTHROUGH.md).
+Run `mvn test` at the root to test all modules, or `mvn package` to package them all.
