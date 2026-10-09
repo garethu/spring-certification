@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.example</groupId>
+    <groupId>com.garethyoo</groupId>
     <artifactId>spring-certification-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -21,6 +21,7 @@
     <modules>
         <module>modules/day-01</module>
         <module>modules/day-02</module>
+        <module>modules/day-03</module>
     </modules>
 
     <properties>

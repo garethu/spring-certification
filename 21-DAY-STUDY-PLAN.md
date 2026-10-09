@@ -2,6 +2,8 @@
 
 **Daily time budget:** 2 hours (approximately 1 hour of theory and 1 hour of hands-on practice in one running application)
 
+[Open the editable 21-day roadmap in Excalidraw](docs/21-day-roadmap.excalidraw) (open the file with an Excalidraw editor or import it at [excalidraw.com](https://excalidraw.com/)).
+
 ## Week 1: Container, AOP, and Testing
 
 ### Day 1: Container Basics

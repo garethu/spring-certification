@@ -2,7 +2,7 @@
 
 ## The Big Picture
 
-This module is a standalone Spring Boot console application. Spring creates an application context, discovers the components under `com.example.springcertification.day2`, injects their collaborators, and then calls `DayTwoDemo.run()`. The runner prints short results so you can connect the source code to the ideas in the study guide.
+This module is a standalone Spring Boot console application. Spring creates an application context, discovers the components under `com.garethyoo.springcertification.day2`, injects their collaborators, and then calls `DayTwoDemo.run()`. The runner prints short results so you can connect the source code to the ideas in the study guide.
 
 ## Follow the Startup
 
