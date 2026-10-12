@@ -10,6 +10,7 @@ See the [21-day study plan](21-DAY-STUDY-PLAN.md) and its [editable Excalidraw r
 - [Day 2: Dependency Injection](modules/day-02/DAY-2-STUDY-GUIDE.md)
 - [Day 3: Configuration and Components](modules/day-03/DAY-3-STUDY-GUIDE.md)
 - [Day 4: AOP Concepts](modules/day-04/DAY-4-STUDY-GUIDE.md)
+- [Day 5: AOP Pointcut Expressions](modules/day-05/DAY-5-STUDY-GUIDE.md)
 
 ## Run a Module
 
@@ -23,5 +24,7 @@ To run Day 2 instead, use `modules/day-02` in those commands. Each module has it
 To run Day 3, use `modules/day-03` in those commands.
 
 To run Day 4, use `modules/day-04` in those commands.
+
+To run Day 5, use `modules/day-05` in those commands.
 
 Run `mvn test` at the root to test all modules, or `mvn package` to package them all.
